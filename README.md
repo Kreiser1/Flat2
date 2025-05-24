@@ -4,3 +4,4 @@
 Будут позже.
 ## Документация
 Будет позже.
+## [Лицензия](https://github.com/Kreiser1/flat2/blob/main/LICENSE)
