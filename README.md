@@ -8,5 +8,7 @@ Flat.exe [filePath].lua
 Будут позже.
 ## Документация
 Будет позже.
+## Благодарности
+GLFW, Lua, GLEW, GLAD, GLText, LuaBridge, stb.
 ## [Релизы](https://github.com/Kreiser1/Flat2/releases)
 ## [Лицензия](https://github.com/Kreiser1/Flat2/blob/main/LICENSE)
