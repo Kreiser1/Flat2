@@ -2011,6 +2011,7 @@ namespace Flat
 		{
 			if (!bRunning)
 				Error::raise("Engine is not running.");
+
 			glfwSetWindowTitle(glWindow, lpTitle);
 		}
 
@@ -2044,6 +2045,13 @@ namespace Flat
 		static void view(Transform view)
 		{
 			camera = view;
+		}
+
+		static void ratio(Vector ratio)
+		{
+			if (ratio.length() == 0.0)
+				glfwSetWindowAspectRatio(glWindow, GLFW_DONT_CARE, GLFW_DONT_CARE);
+			else glfwSetWindowAspectRatio(glWindow, ratio.x, ratio.y);
 		}
 
 		static bool running()
